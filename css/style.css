@@ -1,0 +1,58 @@
+@keyframes fondo{
+    0%{background-color: purple}
+    40%{background-color: purple}
+    80%{background-color: purple)}
+    90%{background-color: purple}
+    100%{background-color: purple}
+}
+
+
+body {
+   animation:fondo;
+   animation-name: fondo;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+
+.container{
+    background-color: cyan;
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    color:white;
+}
+
+section{
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: rgba(52, 73, 94, 0.7);
+    width: 40%;
+    text-align: center;
+    border-radius: 60px;
+    height: 250px;
+}
+
+input {
+    border-style: outset solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+#Entrada {
+    text-align: center;
+    cursor: pointer;
+}
+
+section .row{
+    height: 600px;
+}
+
+embed{
+    width: 100%;
+    height: 100%;
+}
+

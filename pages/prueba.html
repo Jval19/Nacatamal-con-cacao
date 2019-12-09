@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Documento</title>
+	<link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<nav class="center-align">
+		<div class="col s4" id="Retorno">PRUEBA</div>
+	</nav>
+	<div class="container center-align">
+		<h1>Prueba</h1>
+		<input id="Iniciar" type="submit" value="Iniciar" class="btn">
+		<div class="row" hidden id="p1">
+			<div class="col s12 input-field">
+				<select>
+					<option value="" disabled selected></option>
+					<option value="0">Femenino</option>
+					<option value="1">Masculino</option>
+					<option value="2">No definido</option>
+				</select>
+				<label>Sexo</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+					<option value="0">Soltero/a</option>
+					<option value="1">Casado/a</option>
+					<option value="2">Divorciado/a</option>
+					<option value="3">Viudo/a</option>
+				</select>
+				<label>Estado</label>
+			</div>
+		</div>
+		<div class="row" hidden id="p2">
+			<div class="col s12 input-field">
+				<input type="number">
+				<label>Edad</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+						<option value="0">Nicaragua</option>
+						<option value="1">El Savador</option>
+						<option value="2">Honduras</option>
+						<option value="3">CostaRica</option>
+						<option value="4">Guatemala</option>
+						<option value="5">panama</option>
+						<option value="6">EEUU</option>
+					</select>
+					<label>Pais</label>
+			</div>
+		</div>
+		<div class="row" hidden id="p3">
+			<div class="col s12 input-field">
+				<input type="number">
+				<label>Dia</label>
+			</div>
+			<div class="col s12 input-field">
+				<select>
+					<option value=""></option>
+						<option value="0">60's</option>
+						<option value="1">70's</option>
+						<option value="2">80's</option>
+						<option value="3">90's</option>
+						<option value="4">2000's</option>
+					</select>
+					<label>Fecha de Nacimiento</label>
+			</div>
+		</div>
+		<input id="Siguiente" type="submit" class="btn" value="Siguiente">
+	</div>
+	<script src="../js/jquery.js"></script>
+	<script src="../js/sweetalert2.min.js"></script>
+	<script src="../js/prueba.js"></script>
+	<script src="../js/materialize.min.js"></script>
+	<script src="../js/program.js"></script>
+</body>
+</html>
